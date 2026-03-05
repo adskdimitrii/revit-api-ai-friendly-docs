@@ -1,0 +1,85 @@
+# Built In Failures Analytical Model Failures Class
+
+Source: https://www.revitapidocs.com/2026/3633d562-0e24-5cad-ec0f-02e6cc6ad731.htm
+
+---
+
+| Built In Failures Analytical Model Failures Class |
+| --- |
+
+Failures about AnalyticalModel. ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Inheritance Hierarchy System Object 
+Autodesk.Revit.DB BuiltInFailures AnalyticalModelFailures 
+  
+**Namespace:** [Autodesk.Revit.DB](../ungrouped/Autodesk.-Revit.-DB-Namespace.md) 
+**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26\.0\.4\.0 (26\.0\.4\.0\) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Syntax [C\#](#) [VB](#) [C\+\+](#) [F\#](#) 
+```
+public static class AnalyticalModelFailures
+```
+
+```
+Public NotInheritable Class AnalyticalModelFailures
+```
+
+```
+public ref class AnalyticalModelFailures abstract sealed
+```
+
+```
+[<AbstractClassAttribute>]
+[<SealedAttribute>]
+type AnalyticalModelFailures = class end
+```
+The BuiltInFailures AnalyticalModelFailures type exposes the following members. 
+
+![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Properties 
+
+|  | Name | Description |
+| --- | --- | --- |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AdjustCurveTooShort](562a408c-b6a1-17e1-c91f-88ff03731ed3.htm) | AdjustCurve is too short. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AdjustEdgeTooShort](753b384e-d741-763a-5b47-71eeeef44e3a.htm) | AdjustEdge is too short. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AdjustEdgeTooShortErr](f88c9ffa-ba91-c5d4-681b-6e7fdfff46c4.htm) | AdjustEdge is too short \- continuable error version. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AdjustEdgeTooShortWarn](afa1fb87-b33d-7d97-9a6c-27a3f5276c90.htm) | AdjustEdge is too short. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalBeamSlabWarning](9fa46dec-a039-0539-5447-766658b9133f.htm) | Beam and Slab Analytical Models do not have the same Analytical Projection Plane. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalCurvedPanelNotValid](ebf27828-6ee9-7f4c-0a94-99b45268520c.htm) | Analytical Curved Panel is not valid. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalDiscrepancyWarning](7bb6cd32-140b-da57-35f7-21096f328015.htm) | Distance between Analytical and Physical Models of Structural Element is beyond tolerance of \[Value] |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalElementsInvalidAfterUpgrade](7fec823e-fabc-2201-dd5a-a92081027753.htm) | One or several analytical elements have become invalid during the upgrade process and will be deleted. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalGapWarning](d3e02170-4359-bff3-d567-08884ad509e4.htm) | Detected physical connection between Structural Elements, but did not detect Analytical intersection. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalLinkJoinedNodes](552f2e60-f1af-9142-f7e3-02c89ef9b7ab.htm) | Analitycal Link is invalid. Reference nodes have been joined. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalLinkNotConnected](b9ae97ee-53db-c763-7488-3bfe764c8c09.htm) | Analytical Link has lost one or more references. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalMemberInstability](ff978c6c-52dd-9d12-dea4-fb01f8e76fc8.htm) | Possible Member Instability, based on Release Conditions |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalModelInstability](e1cefbba-00a1-f73a-97c6-367e9dfa28c5.htm) | Possible Model Instability |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalModelIsIncorrect](8d044710-83ad-9761-f624-c1950db0a5ca.htm) | Analytical Model is not created for the structural element. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalPanelNotPlanar](e7a6eb39-0033-015a-24dc-cc3ea162b2cb.htm) | Analytical Panel is not planar. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalPanelNotVisible](aab7733f-c86e-c05f-9e5a-f59e1ddd56a1.htm) | Analytical Panel is not visible in the current view. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalPhysicalCheckDone](b1b50831-0efb-a621-c8cb-0fad54a9de53.htm) | Analytical / Physical Model Consistency check is complete. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalSupportCycleWarning](05fdd2a8-00a5-af99-c20c-8001bb603304.htm) | Circular support chain detected |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalSurfaceCannotMove](36610d46-ed07-589f-8854-197f83874006.htm) | Cannot move analytical surface. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalSurfaceCannotMoveByConnector](7575a7d3-9147-2d86-b380-c5d983eda12b.htm) | Cannot move analytical surface because it will disconnect the analytical nodes. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AnalyticalTopBottomPlanesReversed](cca0e6de-d91f-dff9-fce9-b8b1d46ff1b0.htm) | Analytical Top Projection Plane is partially or completely below Analytical Bottom Projection Plane. Please reset  top and/or bottom planes to valid values. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [AutoDetectIgnoreLeaderWarning](e1931899-494f-f4a1-d2cf-458f67043a82.htm) | Analytical Model for Structural Element has reset to its default location. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [BoundaryLinesIntersect](64b0df6a-92d0-4b62-7837-9d50d359c115.htm) | Boundary lines intersect. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CannotCreateAnalyticalGeometry](d384e388-c378-980b-3557-bc59c6b73940.htm) | Cannot construct Analytical Geometry. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CannotKeepAnalyticalAdjustment](85dfcffb-52f5-bbcd-0a36-a3762df94c73.htm) | Analytical model Adjustment distance exceeds current Adjustment Snapping Distance. To adjust snap settings, go to the Structural Settings Dialog. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CannotMakeAnalyticalGeometry](63dbad6c-e42d-58fe-8ddf-1c9cbf069501.htm) | Cannot construct Analytical Geometry. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CannotSlantAnalyticalWallError](3317acd0-2deb-4444-2bd7-99775544b885.htm) | Cannot slant a wall with an Analytical Model. Please disable the Analytical Model first. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [ContextualAnalyticalModelModeNotEnabled](2bd07c94-d8e8-06a9-4df5-6b1c3949a58d.htm) | Contextual Analytical Model not enabled. File open was canceled. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [EnterPositiveValueLessThan](Built-In-Failures-Analytical-Model-Failures-Enter-Positive-Value-Less-Than-Property.md) | Please enter a positive value less than \[Value]. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [HighestAssociatedLevelBelowLowestAssociatedLevel](f00c02d9-a038-cb85-4b07-2720f0122afc.htm) | The Highest Associated Level is set below the Lowest Associated Level |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [LoadsMayBeNotUpToDate](68b24833-f329-eeae-cc06-0eab9dc22170.htm) | Reactions defined as Internal Load (Is Reaction) may no longer be valid since the analytical model has changed. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [LowestAssociatedLevelAboveHighestAssociatedLevel](da613fef-858f-a423-2b1c-2ca286a8cf4a.htm) | The Lowest Associated Level is set above the Highest Associated Level |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [ProjectionPlaneInvalidWall](63fc9954-73ff-471e-9a8b-2b4b3babcaac.htm) | Projection plane becomes invalid for this wall. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [ProjectionPlanesNotIntersect](cbd05a02-40cb-de56-ddfa-072f7ff1a4ac.htm) | Can't project Analytical Model. Planes do not intersect each other. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [ProjectionPlanesParallel](1d380da3-663f-853b-6e67-f3decfe9fa62.htm) | Can't project Analytical Model. Two or more projection planes are parallel. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [StructAnalyticalErrorProjection](2a484abb-2177-3863-f59e-e8af104f16d6.htm) | Can't project Analytical Model to Analytical Projection Surface |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [StructuralElementMayNotBeSupported](4705343b-063f-b292-0b5f-b5bdb49652f3.htm) | Structural Element may not be supported \-\- verify support for Element. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [StructWallAnalyticalErrorAlign](761ff618-dbb1-0de4-a90f-09c38c185f90.htm) | Can't align Analytical Model with joined Walls. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [StructWallAnalyticalErrorConversion](e2aa8fa0-59bf-aa10-10df-bbfb658e18ac.htm) | Can't convert Edges to Analytical Model curves. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [SupportCheckDone](85d968c0-7ffe-dd2a-c7fa-cf339597f0e0.htm) | Member support check is complete. No unsupported elements detected. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [UnableToUpgradeAnalyticalElementGeometry](fb2f23f8-b30e-8450-b2ae-5807c035c9a7.htm) | Unable to upgrade analytical element with incorrect geometry. To keep the elements, open Revit 2022 and correct the elements. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [WallAMLostAdjustmentReference](d8062879-02c7-dcd9-2852-a44a7768b68f.htm) | Wall Analytical Model has lost its adjustment reference. |
+
+[Top](#PageHeader) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)See Also 
+
+#### Reference
+
+[Autodesk.Revit.DB Namespace](../ungrouped/Autodesk.-Revit.-DB-Namespace.md)

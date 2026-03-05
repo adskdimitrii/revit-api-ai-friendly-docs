@@ -1,0 +1,63 @@
+# Energy Analysis Zone Properties
+
+Source: https://www.revitapidocs.com/2026/b426402a-618f-f618-27d1-a3a24ab873b0.htm
+
+---
+
+| Energy Analysis Zone Properties |
+| --- |
+
+The [EnergyAnalysisZone](Energy-Analysis-Zone-Class.md) type exposes the following members. 
+
+![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Properties 
+
+|  | Name | Description |
+| --- | --- | --- |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [AirChangesPerHour](Energy-Analysis-Zone-Air-Changes-Per-Hour-Property.md) | The outside air rate or air changes per hour as a number between 0 and 10000\. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [AssemblyInstanceId](83989f69-1aca-1a49-9647-e57bc2d58b21.htm) | The id of the assembly instance to which the element belongs. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [BoundingBox](def2f9f2-b23a-bcea-43a3-e6de41b014c8.htm) | Retrieves a box that circumscribes all geometry of the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [CADObjectUniqueId](Energy-Analysis-Zone-CADObject-Unique-Id-Property.md) | The unique id of the originating CAD object (model element) associated with this zone. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Category](8990bd36-af08-fc99-496b-f94fcb056b21.htm) | Retrieves a Category object that represents the category or sub category in which the element resides. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [CoolingAirTemperature](Energy-Analysis-Zone-Cooling-Air-Temperature-Property.md) | The cooling air temperature in unit Kelvin (K). |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [CoolingSetPoint](Energy-Analysis-Zone-Cooling-Set-Point-Property.md) | The cooling temperature set point in unit Kelvin (K). |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [CreatedPhaseId](c6032e01-f7cb-b2ea-3312-697d14216a31.htm) | Id of a Phase at which the Element was created. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [DehumidificationSetPoint](Energy-Analysis-Zone-Dehumidification-Set-Point-Property.md) | The dehumidification set point as a number between 0 and 1\. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [DemolishedPhaseId](7949a983-c5dc-62a3-594a-d685365449d5.htm) | Id of a Phase at which the Element was demolished. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [DesignOption](5c20fe58-e301-6ddb-3438-666db5c586ee.htm) | Returns the design option to which the element belongs. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Document](9e530d25-61ca-3899-a531-cbcfd994358d.htm) | Returns the Document in which the Element resides. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Geometry](d8a55a5b-2a69-d5ab-3e1f-6cf1ee43c8ec.htm) | Retrieves the geometric representation of the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [GroupId](9508a6c5-9681-bbef-07c5-1351583b0e1e.htm) | The id of the group to which an element belongs. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [HeatingAirTemperature](Energy-Analysis-Zone-Heating-Air-Temperature-Property.md) | The cooling air temperature in unit Kelvin (K). |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [HeatingSetPoint](Energy-Analysis-Zone-Heating-Set-Point-Property.md) | The heating temperature set point in unit Kelvin (K). |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [HumidificationSetPoint](Energy-Analysis-Zone-Humidification-Set-Point-Property.md) | The humidification set point as a number between 0 and 1\. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Id](9235095b-b7ae-b6e5-6cc2-2b8d397644de.htm) | A unique identifier for an Element in an Autodesk Revit project. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [IsModifiable](65f9f835-daaa-3efa-2976-3f932aa18366.htm) | Identifies if the element is modifiable. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [IsTransient](f391d235-555f-6651-99c6-895fc443f8d8.htm) | Indicates whether an element is transient or permanent. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [IsValidObject](0ffcf585-a39d-623c-9b5b-ab63c7bebfb6.htm) | Specifies whether the .NET object represents a valid Revit entity. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [LevelId](27033fe3-6740-61e3-be82-47a6b8ae77db.htm) | The id of the level associated with the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Location](89438f4f-7e15-835a-0c66-d6adbc8dd00c.htm) | This property is used to find the physical location of an element within a project. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Name](e372092e-ff47-71c2-1272-50ab08e5a41d.htm) | A human readable name for the Element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [OutsideAirPerArea](Energy-Analysis-Zone-Outside-Air-Per-Area-Property.md) | The outside air per area in unit ft/s. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [OutsideAirPerPerson](Energy-Analysis-Zone-Outside-Air-Per-Person-Property.md) | The outside air per person in unit ft3/s. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [OwnerViewId](174c1adf-0be8-a4b0-41f3-9e3ea1d6b1f1.htm) | The id of the view that owns the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Parameter BuiltInParameter](2f91a9f3-7f69-72f9-08d6-a2d71dfb33db.htm) | Retrieves a parameter from the element given a parameter id. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Parameter Definition](87d8a88c-906e-85a9-f575-f263788b8584.htm) | Retrieves a parameter from the element based on its definition. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Parameter Guid](2e852bc4-46c6-5598-cc45-0eaf38cf8973.htm) | Retrieves a parameter from the element given a GUID for a shared parameter. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Parameters](7af5d66f-4533-33d2-dd82-d9573eaabf15.htm) | Retrieves a set containing all of the parameters that are contained within the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [ParametersMap](82c45482-a018-32e4-d8e5-9751e10ffeb9.htm) | Retrieves a map containing all of the parameters that are contained within the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [Pinned](c37bc7f9-409e-9b8a-f491-f700228985e2.htm) | Identifies if the element has been pinned to prevent changes. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UniqueId](f9a9cb77-6913-6d41-ecf5-4398a24e8ff8.htm) | A stable unique identifier for an element within the document. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UseAirChangesPerHour](Energy-Analysis-Zone-Use-Air-Changes-Per-Hour-Property.md) | Use the air changes per hour. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UseDehumidificationSetPoint](Energy-Analysis-Zone-Use-Dehumidification-Set-Point-Property.md) | Use the dehumidification set point. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UseHumidificationSetPoint](Energy-Analysis-Zone-Use-Humidification-Set-Point-Property.md) | Use the humidification set point. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UseOutsideAirPerArea](Energy-Analysis-Zone-Use-Outside-Air-Per-Area-Property.md) | Use the outside air per area. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [UseOutsideAirPerPerson](Energy-Analysis-Zone-Use-Outside-Air-Per-Person-Property.md) | Use the outside air per person. |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [VersionGuid](2a1eae53-2c5c-a7be-1ef2-0f48626c62f5.htm) | Get the element version Guid. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [ViewSpecific](785b351e-51cb-e3c6-cb91-f307c8e4ba73.htm) | Identifies if the element is owned by a view. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [WorksetId](4b45250a-7a07-a89a-0f63-cf8d142a7b93.htm) | Get Id of the Workset which owns the element. (Inherited from [Element](../Autodesk.Revit.DB/Element-Class.md) ) |
+
+[Top](#PageHeader) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)See Also 
+
+#### Reference
+
+[EnergyAnalysisZone Class](Energy-Analysis-Zone-Class.md) [Autodesk.Revit.DB.Analysis Namespace](../ungrouped/Autodesk.-Revit.-DB.-Analysis-Namespace.md)

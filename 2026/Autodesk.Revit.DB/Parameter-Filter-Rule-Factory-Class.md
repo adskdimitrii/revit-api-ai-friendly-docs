@@ -1,0 +1,91 @@
+# Parameter Filter Rule Factory Class
+
+Source: https://www.revitapidocs.com/2026/317755a4-24ba-9f36-7639-f6fb2aa5a1a7.htm
+
+---
+
+| Parameter Filter Rule Factory Class |
+| --- |
+
+Contains functions that create appropriate FilterRule objects based on the parameters given. ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Inheritance Hierarchy System Object 
+Autodesk.Revit.DB ParameterFilterRuleFactory 
+  
+**Namespace:** [Autodesk.Revit.DB](../ungrouped/Autodesk.-Revit.-DB-Namespace.md) 
+**Assembly:** RevitAPI (in RevitAPI.dll) Version: 26\.0\.4\.0 (26\.0\.4\.0\) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Syntax [C\#](#) [VB](#) [C\+\+](#) [F\#](#) 
+```
+public class ParameterFilterRuleFactory : IDisposable
+```
+
+```
+Public Class ParameterFilterRuleFactory
+	Implements IDisposable
+```
+
+```
+public ref class ParameterFilterRuleFactory : IDisposable
+```
+
+```
+type ParameterFilterRuleFactory = 
+    class
+        interface IDisposable
+    end
+```
+The ParameterFilterRuleFactory type exposes the following members. 
+
+![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Properties 
+
+|  | Name | Description |
+| --- | --- | --- |
+| ![Public property](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubproperty.gif "Public property") | [IsValidObject](c88fed60-40fe-ced5-79eb-1dbabe7690df.htm) | Specifies whether the .NET object represents a valid Revit entity. |
+
+[Top](#PageHeader) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)Methods 
+
+|  | Name | Description |
+| --- | --- | --- |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateBeginsWithRule](Parameter-Filter-Rule-Factory-Create-Begins-With-Rule-Method.md) | Creates a filter rule that determines whether strings from the document  begin with a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateContainsRule](Parameter-Filter-Rule-Factory-Create-Contains-Rule-Method.md) | Creates a filter rule that determines whether strings from the document contain  a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateEndsWithRule](Parameter-Filter-Rule-Factory-Create-Ends-With-Rule-Method.md) | Creates a filter rule that determines whether strings from the document  end with a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateEqualsRule(ElementId, ElementId)](13332eda-1822-237d-51a6-d09df09b5234.htm) | Creates a filter rule that determines whether ElementId values  from the document equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateEqualsRule(ElementId, Int32\)](3a374069-5d74-7af9-4316-8cc6ef232279.htm) | Creates a filter rule that determines whether integer values  from the document equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateEqualsRule(ElementId, String)](365d4fca-bbb0-c05b-5940-3104982589c8.htm) | Creates a filter rule that determines whether strings from the document equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateEqualsRule(ElementId, Double, Double)](5b1c116a-a1a9-c2a1-91fd-d96805d309ce.htm) | Creates a filter rule that determines whether double\-precision values  from the document equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterOrEqualRule(ElementId, ElementId)](88ab89de-0fbc-9750-cbfe-cacd637b3f00.htm) | Creates a filter rule that determines whether ElementId values  from the document are greater than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterOrEqualRule(ElementId, Int32\)](5bef06b9-9257-9fd6-d6ca-01fc9d0f5f9e.htm) | Creates a filter rule that determines whether integer values  from the document are greater than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterOrEqualRule(ElementId, String)](e7549a8a-72bf-d4ef-e900-18e6b767882a.htm) | Creates a filter rule that determines whether strings from the document  are greater than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterOrEqualRule(ElementId, Double, Double)](3be5900e-4b7b-7197-8a7e-664b7ecc15e5.htm) | Creates a filter rule that determines whether double\-precision values  from the document are greater than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterRule(ElementId, ElementId)](23ce8e6f-7087-bb6a-b4f7-53b07b5c5cb4.htm) | Creates a filter rule that determines whether ElementId values  from the document are greater than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterRule(ElementId, Int32\)](86a395f9-c085-a4c3-dd3e-23faa4e7cd3d.htm) | Creates a filter rule that determines whether integer values  from the document are greater than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterRule(ElementId, String)](3a713b67-a0da-8110-8d38-b27bd12e1eba.htm) | Creates a filter rule that determines whether strings from the document are greater than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateGreaterRule(ElementId, Double, Double)](03c63432-97f5-6efe-dee9-bad80fff548b.htm) | Creates a filter rule that determines whether double\-precision values  from the document are greater than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateHasNoValueParameterRule](a21791b5-ee59-0a42-6b8d-8354c7748f32.htm) | Creates a filter rule that determines whether an element's parameter does not have a value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateHasValueParameterRule](f5d6b4ac-1443-ba8e-14ae-a5a71efacec4.htm) | Creates a filter rule that determines whether an element's parameter has a value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateIsAssociatedWithGlobalParameterRule](fa6131e9-7dbe-1c6e-9339-39c6cd92486a.htm) | Creates a filter rule that determines whether a parameter is associated  with a certain global parameter. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateIsNotAssociatedWithGlobalParameterRule](600c0aa7-f3ea-8a44-5ae8-f2706deaf240.htm) | Creates a filter rule that determines whether a parameter is not associated  with a certain global parameter. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessOrEqualRule(ElementId, ElementId)](487472a6-b353-73b5-97d5-b72aae52af26.htm) | Creates a filter rule that determines whether ElementId values  from the document are less than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessOrEqualRule(ElementId, Int32\)](134ee688-f359-083f-6314-03e478ea728b.htm) | Creates a filter rule that determines whether integer values  from the document are less than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessOrEqualRule(ElementId, String)](ea08d8a6-2959-fad9-70ee-b2feef2835b6.htm) | Creates a filter rule that determines whether strings from the document  are less than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessOrEqualRule(ElementId, Double, Double)](6fc427ee-25ae-2012-b9a0-105ccbcaf343.htm) | Creates a filter rule that determines whether double\-precision values  from the document are less than or equal to a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessRule(ElementId, ElementId)](ade19090-ae9f-81a3-99ae-123d0155f796.htm) | Creates a filter rule that determines whether ElementId values  from the document are less than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessRule(ElementId, Int32\)](156dde69-2526-3496-fcc3-1677eb7a1292.htm) | Creates a filter rule that determines whether integer values  from the document are less than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessRule(ElementId, String)](038843e0-fdb9-36f4-00b3-776d107f70c1.htm) | Creates a filter rule that determines whether strings from the document  are less than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateLessRule(ElementId, Double, Double)](d64a5bd6-a1e2-4403-76e8-6bbaaab0abb0.htm) | Creates a filter rule that determines whether double\-precision values  from the document are less than a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotBeginsWithRule](Parameter-Filter-Rule-Factory-Create-Not-Begins-With-Rule-Method.md) | Creates a filter rule that determines whether strings from the document  do not begin with a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotContainsRule](Parameter-Filter-Rule-Factory-Create-Not-Contains-Rule-Method.md) | Creates a filter rule that determines whether strings from the document do not  contain a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotEndsWithRule](Parameter-Filter-Rule-Factory-Create-Not-Ends-With-Rule-Method.md) | Creates a filter rule that determines whether strings from the document  do not end with a certain string value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotEqualsRule(ElementId, ElementId)](fed5122e-b2d2-bfbb-1ca5-db4e8ae9f7c3.htm) | Creates a filter rule that determines whether ElementId values  from the document do not equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotEqualsRule(ElementId, Int32\)](09da6f75-c1b4-bf2a-4dee-cd7dcb9dde6f.htm) | Creates a filter rule that determines whether integer values  from the document do not equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotEqualsRule(ElementId, String)](f7618ce2-1213-9024-1bba-397fdf4466ff.htm) | Creates a filter rule that determines whether strings from the document do not equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateNotEqualsRule(ElementId, Double, Double)](608ad46b-84f6-7c10-886f-15d74ab53419.htm) | Creates a filter rule that determines whether double\-precision values  from the document do not equal a certain value. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method")![Static member](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/static.gif "Static member") | [CreateSharedParameterApplicableRule](170b333d-c12b-cfe5-b0c3-7701b66fe8b1.htm) | Creates a filter rule that tests elements for support of a shared parameter. |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method") | [Dispose](ee6548d9-019c-cf6d-e4c2-0a275f83bea3.htm) | Releases all resources used by the ParameterFilterRuleFactory |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method") | Equals | Determines whether the specified object is equal to the current object. (Inherited from Object ) |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method") | GetHashCode | Serves as the default hash function. (Inherited from Object ) |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method") | GetType | Gets the Type of the current instance. (Inherited from Object ) |
+| ![Public method](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/pubmethod.gif "Public method") | ToString | Returns a string that represents the current object. (Inherited from Object ) |
+
+[Top](#PageHeader) ![](https://d24b2zsrnzhmgb.cloudfront.net/static/img/chm/icons/sectionexpanded.png)See Also 
+
+#### Reference
+
+[Autodesk.Revit.DB Namespace](../ungrouped/Autodesk.-Revit.-DB-Namespace.md)
